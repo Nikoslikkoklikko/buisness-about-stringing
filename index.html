@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racket Stringing | Soto Tennis Academy</title>
+  <meta name="description" content="Profesjonell racketstrenging med erfaring fra Soto Tennis Academy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <p class="brand">Stringing Service</p>
+      <a class="cta-small" href="#kontakt">Kontakt</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Profesjonell racketstrenging</p>
+      <h1>Pålitelig og erfaren strenging for ditt beste spill</h1>
+      <p class="lead">
+        Jeg har strenget for <strong>Soto Tennis Academy</strong> i ett år, med et volum på cirka 2-4 racketer hver dag.
+        Med totalt fire års erfaring får du trygg kvalitet, jevn spenning og racketen klar til kamp.
+      </p>
+      <a class="cta" href="#priser">Se priser</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section card" id="om">
+      <h2>Om tjenesten</h2>
+      <p>
+        Strenging handler om presisjon, følelse og detaljer. Målet mitt er at du alltid skal få en racket
+        som kjennes riktig ut fra første ball. Enten du trener jevnlig eller spiller turnering, får du en
+        profesjonell og nøye utført jobb.
+      </p>
+      <p>
+        Erfaringen fra daglig arbeid i et aktivt akademimiljø gjør at jeg vet hva spillere forventer:
+        stabil kvalitet, rask levering og god kommunikasjon.
+      </p>
+    </section>
+
+    <section class="section card pricing" id="priser">
+      <h2>Priser</h2>
+      <div class="price-grid">
+        <article class="price-item">
+          <h3>Du har egen streng</h3>
+          <p class="price">200 kr</p>
+          <p>Profesjonell strenging med din valgte streng.</p>
+        </article>
+        <article class="price-item featured">
+          <h3>Du trenger streng inkludert</h3>
+          <p class="price">250 kr</p>
+          <p>Streng + profesjonell strenging i én pakke.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section card" id="erfaring">
+      <h2>Erfaring i tall</h2>
+      <div class="stats">
+        <div class="stat">
+          <p class="number">4 år</p>
+          <p>totalt med strenging</p>
+        </div>
+        <div class="stat">
+          <p class="number">1 år</p>
+          <p>for Soto Tennis Academy</p>
+        </div>
+        <div class="stat">
+          <p class="number">2-4</p>
+          <p>racketer strenget hver dag</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card contact" id="kontakt">
+      <h2>Kontakt</h2>
+      <p>
+        Klar for ny strenging? Ta kontakt for leveringstid og avtale.
+      </p>
+      <p class="contact-note">
+        Du kan legge til telefonnummer, Instagram eller e-post her.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Stringing Service | Soto Tennis Academy</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
