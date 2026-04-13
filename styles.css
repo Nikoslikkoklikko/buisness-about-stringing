@@ -39,7 +39,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .brand {
@@ -53,6 +53,33 @@ body {
 
 .hero-content {
   max-width: 760px;
+}
+
+.hero-image {
+  margin-top: 2.5rem;
+}
+
+.image-placeholder {
+  background: var(--surface);
+  border: 2px dashed var(--border);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.lead a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.lead a:hover {
+  text-decoration: underline;
 }
 
 .eyebrow {
@@ -163,6 +190,7 @@ main {
   font-weight: 700;
   color: var(--primary);
   line-height: 1.1;
+  margin-bottom: 0;
 }
 
 .price-item.featured {
@@ -226,10 +254,15 @@ footer {
 
 @media (max-width: 700px) {
   .topbar {
-    margin-bottom: 2.6rem;
+    margin-bottom: 1rem;
   }
 
   .lead {
     font-size: 1.05rem;
+  }
+
+  .image-placeholder {
+    max-width: 100%;
+    height: 220px;
   }
 }
